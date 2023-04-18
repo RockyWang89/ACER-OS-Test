@@ -1,0 +1,161 @@
+html, body, div, p, a, ul, li, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.rocky-container {
+    max-width: 1440px;
+    position: relative;
+}
+
+/* Navbar */
+.rocky-navbar {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* height: 95px; */
+}
+
+.navbar {
+    padding-top: 26.36px;
+    padding-bottom: 26.36px;
+}
+
+.logo-wrapper {
+    margin-left: 10.416667%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-brand {
+    margin-right: 12px;
+}
+
+.navbar-brand img {
+    width: 90px;
+    height: 30px;
+}
+
+.logo-text {
+    width: 133px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5px;
+    color: #2F2F2F;
+    line-height: 100.21%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+}
+
+.navbar-nav {
+    margin-left: 5%;
+}
+
+.nav-link {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F2F !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: #09257A !important;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    padding-top: 342px;
+    padding-left: 10.416667%;
+    padding-bottom: 341px;
+    background-image: url('../images/banner.png');
+}
+
+.banner h6 {
+    max-width: 515px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 144%;
+}
+
+.banner h1 {
+    margin-top: 13px;
+    max-width: 653px;
+    height: 119px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 130%;
+}
+
+.banner p {
+    margin-top: 38px;
+    max-width: 543px;
+}
+
+.banner button {
+    background: #04726D;
+    border-radius: 65px;
+    width: 199px;
+    height: 64px;
+    margin-top: 23px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Subjects */
+.subjects {
+    width: 100%;
+    padding-top: 82px;
+    padding-bottom: 96px;
+    text-align: center;
+    background-color: #09257A;
+}
+
+.subjects h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 141.24%;
+    color: white;
+}
+
+.subjects>p {
+    margin-top: 11px;
+    color: white;
+}
+
+.subjects-wrapper {
+    margin-left: 14.444444%;
+    margin-right: 14.444444%;
+    margin-top: 65px;
+}
+
+.subject-item p {
+    margin-top: 20.43px;
+    color: white;
+}
+
+/* Rewards */
