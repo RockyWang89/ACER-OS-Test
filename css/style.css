@@ -11,9 +11,26 @@ p {
     line-height: 29px;
 }
 
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 141.24%;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+}
+
 .rocky-container {
     max-width: 1440px;
     position: relative;
+    margin: 0 auto
 }
 
 /* Navbar */
@@ -44,7 +61,7 @@ p {
 
 .logo-text {
     width: 133px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14.5px;
@@ -78,10 +95,13 @@ p {
 /* Banner */
 .banner {
     width: 100%;
-    padding-top: 342px;
+    min-height: 1024px;
     padding-left: 10.416667%;
-    padding-bottom: 341px;
+    padding-right: 10.416667%;
     background-image: url('../images/banner.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .banner h6 {
@@ -96,7 +116,7 @@ p {
 .banner h1 {
     margin-top: 13px;
     max-width: 653px;
-    height: 119px;
+    min-height: 119px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 52px;
@@ -114,7 +134,6 @@ p {
     width: 199px;
     height: 64px;
     margin-top: 23px;
-
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
@@ -124,21 +143,21 @@ p {
     color: #FFFFFF;
 }
 
+.banner button:hover {
+    color: #04726D;
+    border: 1px solid #04726D;
+    background-color: white;
+}
+
 /* Subjects */
 .subjects {
     width: 100%;
     padding-top: 82px;
-    padding-bottom: 96px;
     text-align: center;
     background-color: #09257A;
 }
 
 .subjects h2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 37px;
-    line-height: 141.24%;
     color: white;
 }
 
@@ -155,7 +174,133 @@ p {
 
 .subject-item p {
     margin-top: 20.43px;
+    margin-bottom: 96px;
     color: white;
 }
 
 /* Rewards */
+.rewards {
+    background-image: url('../images/rewards.png');
+    width: 100%;
+    min-height: 1024px;
+    padding-left: 10.416667%;
+    padding-right: 10.416667%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rewards-filter {
+    position:absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg, #FFFFFF 22.22%, rgba(255, 255, 255, 0) 100%);
+    min-height: 1024px;
+    max-width: 1024px;
+    width: 100%;
+    z-index: 1;
+}
+
+.rewards-content {
+    position: relative;
+    z-index: 2;
+}
+
+.rewards-content>p {
+    max-width: 458px;
+    margin-top: 15px;
+}
+
+.rewards-content>button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #09257A;
+    border-radius: 65px;
+    color: white;
+    height: 22px;
+    margin-top: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 143.16%;
+    padding: 0px 13px;
+    gap: 7px;
+}
+
+.rewards-content>button:hover {
+    color: #09257A;
+    background-color: white;
+    border: 1px solid #09257A;
+}
+
+/* Competition */
+.competition {
+    background-image: url('../images/competition.png');
+    min-height: 1177px;
+    padding-top: 130px;
+    padding-left: 10.416667%;
+    padding-right: 10.416667%;
+    color: white;
+    text-align: center;
+}
+
+.competition-subtitle {
+    margin: 23px auto 0;
+    max-width: 830px;
+}
+
+.processes-wrapper {
+    padding-top: 98px;
+}
+
+.process-item img {
+    margin-bottom: 24.13px;
+}
+
+.process-item {
+    margin-bottom: 90px;
+}
+
+.process-item-text {
+    width: 225px;
+    margin: 10px auto 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.line {
+    border: 2px solid white;
+    margin-bottom: 61px;
+}
+
+.competitions-wrapper {
+    padding-top: 45px;
+}
+
+.competition-item {
+    margin-bottom: 90px;
+}
+
+.competition-date {
+    margin-top: 18.57px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 131.23%;
+}
+
+.competition-subject {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 12px;
+}
