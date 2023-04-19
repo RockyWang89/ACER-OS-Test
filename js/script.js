@@ -1,3 +1,5 @@
+new WOW().init();
+
 $(document).ready(function () {
     $(".top_btn").hide();
     $(function () {
@@ -8,7 +10,7 @@ $(document).ready(function () {
                 $(".top_btn").fadeOut(1500);
             }
         });
-        //当点击跳转链接后，回到页面顶部位置
+        //scroll to top when clicking the back-to-top button
         $(".top_btn").click(function () {
             $('body,html').animate({
                     scrollTop: 0
