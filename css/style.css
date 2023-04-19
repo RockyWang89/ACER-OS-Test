@@ -48,6 +48,14 @@ h3 {
     padding-bottom: 26.36px;
 }
 
+.container-fluid {
+    width: 1440px;
+}
+
+.navbar-toggler {
+    margin-right: 7px;
+}
+
 .logo-wrapper {
     margin-left: 10.416667%;
     display: flex;
