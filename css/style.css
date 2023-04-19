@@ -285,6 +285,15 @@ h3 {
 .processes-wrapper {
     padding-top: 98px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .processes-wrapper {
+        flex-direction: column;
+    }
 }
 
 .process-item img {
@@ -293,6 +302,8 @@ h3 {
 
 .process-item {
     margin-bottom: 90px;
+    margin-left: 7.236842%;
+    margin-right: 7.236842%;
     padding-left: 0;
     padding-right: 0;
 }
@@ -314,14 +325,30 @@ h3 {
 
 .competitions-wrapper {
     padding-top: 45px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .competitions-wrapper {
+        flex-direction: column;
+    }
 }
 
 .competition-item {
     margin-bottom: 90px;
+    margin-left: 3.508772%;
+    margin-right: 3.508772%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .competition-date {
-    margin-top: 18.57px;
+    margin: 18.57px auto 0;
+    width: 263px;
+    text-align: center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
