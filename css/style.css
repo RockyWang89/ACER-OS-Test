@@ -245,6 +245,23 @@ h3 {
     padding-right: 10.416667%;
     color: white;
     text-align: center;
+    position: relative;
+}
+
+.competition-filter {
+    height: 100%;
+    max-width: 623px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    background: linear-gradient(270deg, rgba(22, 71, 86, 0) 0%, #164756 100%);
+}
+
+.competition-content {
+    position: relative;
+    z-index: 6;
 }
 
 .competition-subtitle {
@@ -254,6 +271,7 @@ h3 {
 
 .processes-wrapper {
     padding-top: 98px;
+    margin: 0 auto;
 }
 
 .process-item img {
@@ -262,6 +280,8 @@ h3 {
 
 .process-item {
     margin-bottom: 90px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .process-item-text {
